@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap") * {
+  box-sizing: border-box;
+}
+
+:root {
+  --backgroundColor: #ff90a4;
+  --outputColor: #f1eeeeda;
+}
+body {
+  margin: 0px;
+}
+
+.App {
+  font-family: "Fredoka One", cursive;
+  text-align: center;
+  margin: auto;
+  min-height: 100vh;
+  max-width: 800px;
+  padding: 1rem;
+}
+.main {
+  border: 0.1px solid var(--backgroundColor);
+  background-color: var(--backgroundColor);
+  border-radius: 20px;
+  min-height: 100vh;
+  box-shadow: 7px 7px 7px 3px #b3b1af;
+  max-width: 100vw;
+}
+.GitDiv {
+  text-align: left;
+  margin: 0rem auto 0rem 0.5rem;
+  font-size: xx-large;
+}
+
+input {
+  display: block;
+  margin: 4rem auto;
+  width: 15rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  padding: 1.5rem;
+}
+
+button {
+  margin: 1rem;
+  width: 9rem;
+  height: 4rem;
+  border-radius: 6px;
+  font-size: x-large;
+  color: #fffefe;
+  background-color: #00000080;
+}
+button:hover {
+  background-color: black;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+.output {
+  border: 2px solid;
+  padding: 0.5rem;
+  max-width: 30rem;
+  min-height: 10vh;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: var(--outputColor);
+}
+
+section {
+  margin: 1rem;
+}
